@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red de Transporte Público en Lima</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>Red de Transporte Público en Lima</h1>
+    <img class="logo" src="Logo-unfv.jpg" alt="unfv">
+  </header>
+
+  <div class="controls">
+    <label for="origen">Selecciona el origen:</label>
+    <select id="origen"></select>
+
+    <label for="destino">Selecciona el destino:</label>
+    <select id="destino"></select>
+
+    <button id="calcularRuta">Calcular Ruta</button>
+  </div>
+
+  <div class="results">
+    <h3>Ruta más corta:</h3>
+    <p id="ruta"></p>
+  </div>
+
+  <div id="map" style="height: 500px;"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

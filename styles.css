@@ -1,0 +1,106 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fda35d; /* Azul oscuro UNFV */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 1.2em;
+  }
+  
+  .controls, .results {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .controls label {
+    font-size: 1.1em;
+    color: #fda35d;
+  }
+  
+  .controls select, .controls button {
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid #666600;
+    border-radius: 4px;
+  }
+  
+  .controls button {
+    background-color: #fda35d;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #ff6f00;
+  }
+  
+  .results h3 {
+    font-size: 1.3em;
+    color: #fda35d;
+  }
+  
+  .results p {
+    font-size: 1.2em;
+    margin: 5px 0;
+  }
+  
+  /* Mapa */
+  #map {
+    height: 500px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Estilos adicionales */
+  footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  header div {
+    text-align: center;
+    flex: 1;
+  }
+  
+  header img {
+    width: 150px;
+    height: auto;
+  } 
